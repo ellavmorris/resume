@@ -1,0 +1,79 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+  line-height: 1.6;
+  background-image: url("backgroundimage.jpg"); 
+  background-size: cover;      
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+
+h1, h2, h3 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  color: purple;
+  font-size: 32px;
+  border: 3px solid purple;   
+  padding: 10px;              
+  margin-bottom: 20px;        
+  border-radius: 8px;
+  text-shadow: 2px 2px whitesmoke;
+}
+
+h2 {
+  color: blue;
+  font-size: 24px;
+  text-decoration: underline
+}
+
+h3 {
+  font-size: 18px; 
+}
+
+ul {
+  list-style: none; 
+  padding-left: 20px; 
+}
+
+ul li::before {
+  content: "★"; 
+  color: gold;   
+  margin-right: 8px;
+}
+
+
+a:link {
+  color: blue;
+  text-decoration: none; 
+}
+
+
+a:visited {
+  color: purple;
+}
+
+/* Hover (mouse over) */
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+
+a:active {
+  color: red;
+}
+
+.objective {
+  color: #808000;
+  font-style: italic; 
+}
+
+.info {
+font-weight: bold;
+}
